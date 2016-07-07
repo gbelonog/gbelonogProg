@@ -22,6 +22,8 @@ while i <= n
     puts "factorial(#{i}) = #{factorial(i)}"
     i = i + 1
 end
+
+#test
             
 
             

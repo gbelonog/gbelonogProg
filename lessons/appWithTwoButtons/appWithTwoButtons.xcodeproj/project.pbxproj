@@ -1,0 +1,432 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FE10ACD71D1929420030528C /* Mafoo.m in Sources */ = {isa = PBXBuildFile; fileRef = FE10ACD61D1929420030528C /* Mafoo.m */; };
+		FE10ACD91D195D6E0030528C /* Application.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE10ACD81D195D6E0030528C /* Application.xib */; };
+		FE11CD441CEEE95E00C9DC89 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FE11CD431CEEE95E00C9DC89 /* AppDelegate.m */; };
+		FE11CD461CEEE95E00C9DC89 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FE11CD451CEEE95E00C9DC89 /* main.m */; };
+		FE11CD491CEEE95E00C9DC89 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE11CD481CEEE95E00C9DC89 /* ViewController.m */; };
+		FE11CD4B1CEEE95E00C9DC89 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE11CD4A1CEEE95E00C9DC89 /* Images.xcassets */; };
+		FE11CD4E1CEEE95E00C9DC89 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE11CD4C1CEEE95E00C9DC89 /* Main.storyboard */; };
+		FE11CD5A1CEEE95E00C9DC89 /* appWithTwoButtonsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE11CD591CEEE95E00C9DC89 /* appWithTwoButtonsTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FE11CD541CEEE95E00C9DC89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE11CD351CEEE95E00C9DC89 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE11CD3C1CEEE95E00C9DC89;
+			remoteInfo = appWithTwoButtons;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FE10ACD61D1929420030528C /* Mafoo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Mafoo.m; sourceTree = "<group>"; };
+		FE10ACD81D195D6E0030528C /* Application.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Application.xib; sourceTree = "<group>"; };
+		FE11CD3D1CEEE95E00C9DC89 /* appWithTwoButtons.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = appWithTwoButtons.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE11CD411CEEE95E00C9DC89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE11CD421CEEE95E00C9DC89 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FE11CD431CEEE95E00C9DC89 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FE11CD451CEEE95E00C9DC89 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FE11CD471CEEE95E00C9DC89 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FE11CD481CEEE95E00C9DC89 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FE11CD4A1CEEE95E00C9DC89 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FE11CD4D1CEEE95E00C9DC89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FE11CD531CEEE95E00C9DC89 /* appWithTwoButtonsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = appWithTwoButtonsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE11CD581CEEE95E00C9DC89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE11CD591CEEE95E00C9DC89 /* appWithTwoButtonsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = appWithTwoButtonsTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FE11CD3A1CEEE95E00C9DC89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE11CD501CEEE95E00C9DC89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FE11CD341CEEE95E00C9DC89 = {
+			isa = PBXGroup;
+			children = (
+				FE11CD3F1CEEE95E00C9DC89 /* appWithTwoButtons */,
+				FE11CD561CEEE95E00C9DC89 /* appWithTwoButtonsTests */,
+				FE11CD3E1CEEE95E00C9DC89 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FE11CD3E1CEEE95E00C9DC89 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE11CD3D1CEEE95E00C9DC89 /* appWithTwoButtons.app */,
+				FE11CD531CEEE95E00C9DC89 /* appWithTwoButtonsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE11CD3F1CEEE95E00C9DC89 /* appWithTwoButtons */ = {
+			isa = PBXGroup;
+			children = (
+				FE11CD421CEEE95E00C9DC89 /* AppDelegate.h */,
+				FE11CD431CEEE95E00C9DC89 /* AppDelegate.m */,
+				FE11CD471CEEE95E00C9DC89 /* ViewController.h */,
+				FE11CD481CEEE95E00C9DC89 /* ViewController.m */,
+				FE11CD4A1CEEE95E00C9DC89 /* Images.xcassets */,
+				FE11CD4C1CEEE95E00C9DC89 /* Main.storyboard */,
+				FE10ACD61D1929420030528C /* Mafoo.m */,
+				FE11CD401CEEE95E00C9DC89 /* Supporting Files */,
+				FE10ACD81D195D6E0030528C /* Application.xib */,
+			);
+			path = appWithTwoButtons;
+			sourceTree = "<group>";
+		};
+		FE11CD401CEEE95E00C9DC89 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FE11CD411CEEE95E00C9DC89 /* Info.plist */,
+				FE11CD451CEEE95E00C9DC89 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FE11CD561CEEE95E00C9DC89 /* appWithTwoButtonsTests */ = {
+			isa = PBXGroup;
+			children = (
+				FE11CD591CEEE95E00C9DC89 /* appWithTwoButtonsTests.m */,
+				FE11CD571CEEE95E00C9DC89 /* Supporting Files */,
+			);
+			path = appWithTwoButtonsTests;
+			sourceTree = "<group>";
+		};
+		FE11CD571CEEE95E00C9DC89 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FE11CD581CEEE95E00C9DC89 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FE11CD3C1CEEE95E00C9DC89 /* appWithTwoButtons */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE11CD5D1CEEE95E00C9DC89 /* Build configuration list for PBXNativeTarget "appWithTwoButtons" */;
+			buildPhases = (
+				FE11CD391CEEE95E00C9DC89 /* Sources */,
+				FE11CD3A1CEEE95E00C9DC89 /* Frameworks */,
+				FE11CD3B1CEEE95E00C9DC89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = appWithTwoButtons;
+			productName = appWithTwoButtons;
+			productReference = FE11CD3D1CEEE95E00C9DC89 /* appWithTwoButtons.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FE11CD521CEEE95E00C9DC89 /* appWithTwoButtonsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE11CD601CEEE95E00C9DC89 /* Build configuration list for PBXNativeTarget "appWithTwoButtonsTests" */;
+			buildPhases = (
+				FE11CD4F1CEEE95E00C9DC89 /* Sources */,
+				FE11CD501CEEE95E00C9DC89 /* Frameworks */,
+				FE11CD511CEEE95E00C9DC89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE11CD551CEEE95E00C9DC89 /* PBXTargetDependency */,
+			);
+			name = appWithTwoButtonsTests;
+			productName = appWithTwoButtonsTests;
+			productReference = FE11CD531CEEE95E00C9DC89 /* appWithTwoButtonsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE11CD351CEEE95E00C9DC89 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = GalyaHome;
+				TargetAttributes = {
+					FE11CD3C1CEEE95E00C9DC89 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					FE11CD521CEEE95E00C9DC89 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = FE11CD3C1CEEE95E00C9DC89;
+					};
+				};
+			};
+			buildConfigurationList = FE11CD381CEEE95E00C9DC89 /* Build configuration list for PBXProject "appWithTwoButtons" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FE11CD341CEEE95E00C9DC89;
+			productRefGroup = FE11CD3E1CEEE95E00C9DC89 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE11CD3C1CEEE95E00C9DC89 /* appWithTwoButtons */,
+				FE11CD521CEEE95E00C9DC89 /* appWithTwoButtonsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FE11CD3B1CEEE95E00C9DC89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE11CD4B1CEEE95E00C9DC89 /* Images.xcassets in Resources */,
+				FE11CD4E1CEEE95E00C9DC89 /* Main.storyboard in Resources */,
+				FE10ACD91D195D6E0030528C /* Application.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE11CD511CEEE95E00C9DC89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FE11CD391CEEE95E00C9DC89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE10ACD71D1929420030528C /* Mafoo.m in Sources */,
+				FE11CD491CEEE95E00C9DC89 /* ViewController.m in Sources */,
+				FE11CD461CEEE95E00C9DC89 /* main.m in Sources */,
+				FE11CD441CEEE95E00C9DC89 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE11CD4F1CEEE95E00C9DC89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE11CD5A1CEEE95E00C9DC89 /* appWithTwoButtonsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FE11CD551CEEE95E00C9DC89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE11CD3C1CEEE95E00C9DC89 /* appWithTwoButtons */;
+			targetProxy = FE11CD541CEEE95E00C9DC89 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FE11CD4C1CEEE95E00C9DC89 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE11CD4D1CEEE95E00C9DC89 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FE11CD5B1CEEE95E00C9DC89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FE11CD5C1CEEE95E00C9DC89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FE11CD5E1CEEE95E00C9DC89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = appWithTwoButtons/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FE11CD5F1CEEE95E00C9DC89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = appWithTwoButtons/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FE11CD611CEEE95E00C9DC89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = appWithTwoButtonsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/appWithTwoButtons.app/Contents/MacOS/appWithTwoButtons";
+			};
+			name = Debug;
+		};
+		FE11CD621CEEE95E00C9DC89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = appWithTwoButtonsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/appWithTwoButtons.app/Contents/MacOS/appWithTwoButtons";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FE11CD381CEEE95E00C9DC89 /* Build configuration list for PBXProject "appWithTwoButtons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE11CD5B1CEEE95E00C9DC89 /* Debug */,
+				FE11CD5C1CEEE95E00C9DC89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE11CD5D1CEEE95E00C9DC89 /* Build configuration list for PBXNativeTarget "appWithTwoButtons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE11CD5E1CEEE95E00C9DC89 /* Debug */,
+				FE11CD5F1CEEE95E00C9DC89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE11CD601CEEE95E00C9DC89 /* Build configuration list for PBXNativeTarget "appWithTwoButtonsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE11CD611CEEE95E00C9DC89 /* Debug */,
+				FE11CD621CEEE95E00C9DC89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FE11CD351CEEE95E00C9DC89 /* Project object */;
+}

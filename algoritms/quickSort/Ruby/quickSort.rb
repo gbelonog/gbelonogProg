@@ -51,6 +51,7 @@ print_array(n, a)
 quicksort(p, r, a)
 puts "array sorted by quicksort: "
 print_array(n, a)
+puts "  "
 
 
 

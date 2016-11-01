@@ -5,16 +5,16 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>30022E33-98F4-44AD-AB3E-CBAEA13F7C7B</string>
+	<string>4E20E19A-445D-4C2D-B251-04045895340B</string>
 	<key>IDESourceControlProjectName</key>
-	<string>appWithTwoButtons</string>
+	<string>project</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>6BB2435AD8023F12B4370E7316098F7DBD6A8C65</key>
 		<string>https://github.com/gbelonog/gbelonogProg.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>lessons/appWithTwoButtons/appWithTwoButtons.xcodeproj</string>
+	<string>lessons/app_with_2_buttons/app_with_2_buttons.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>6BB2435AD8023F12B4370E7316098F7DBD6A8C65</key>

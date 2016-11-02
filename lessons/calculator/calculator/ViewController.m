@@ -25,31 +25,58 @@ int operation;
 //0,1,2
 - (IBAction)numberButton:(NSButton *)sender
 {
-
-    self.label.stringValue = sender.title;
+    //NSString *str = [NSString stringWithFormat : self.label.stringValue, sender.title];
+    NSString *labelStr, *resultStr;
+    labelStr = self.label.stringValue;
+    
+    if ([labelStr  isEqual: @"0"])
+    {
+        resultStr = sender.title;
+    }
+    else
+    {
+        resultStr = [labelStr stringByAppendingString : sender.title];
+    }
+    
+    self.label.stringValue = resultStr;
+ //   self.label.stringValue = sender.title;
 //    number = self.label.stringValue.intValue;
-    number = sender.title.intValue;
+    //number = sender.title.intValue;
+    number = resultStr.intValue;
     
    // [self.label setTextColor:[NSColor greenColor]];
 }
-
+// +
 - (IBAction)operationButton:(NSButton *)sender
 {
     number2 = number;
     if ([sender.title isEqual: @"+"])
     {
         //number = number + number2;
-        operation = 0;
-    }
-    //self.label.stringValue = @"0";
-}
-- (IBAction)equalButton:(id)sender
-{
-    if (operation == 0)
-    {
+        //operation = 0;
         number += number2;
     }
+    else
+         if([sender.title isEqual: @"-"])
+         {
+             number -= number2;
+         }
+    
+    self.label.stringValue = @"0";
+}
+// =
+- (IBAction)equalButton:(id)sender
+{
+    /*if (operation == 0)
+    {
+        number += number2;
+    }*/
     self.label.stringValue = [NSString stringWithFormat:@"%d",number];
+}
+
+- (IBAction)CButton:(id)sender
+{
+     self.label.stringValue = @"0";
 }
 
 @end

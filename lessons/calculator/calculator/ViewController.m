@@ -9,10 +9,11 @@
 #import "ViewController.h"
 
 @implementation ViewController
-int number1 = 0;
-int number2 = 0;
+float number1 = 0;
+float number2 = 0;
 float result = 0;
 int operation = 0;
+bool error0 = false;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -98,13 +99,28 @@ int operation = 0;
             result = number2 * number1;
             break;
         case 3:
-            result = number2 / number1;
+            if (number1 == 0)
+            {
+                error0 = true;
+            }
+                else
+                {
+                    result = number2 / number1;
+                }
             break;
         default:
             result = 0;
             break;
     }
-    self.label.stringValue = [NSString stringWithFormat:@"%1.2f",result];
+    if (error0 == true)
+    {
+        [self.label setTextColor:[NSColor redColor]];
+        self.label.stringValue = @"Error. You cannot devide to 0.";
+    }
+        else
+        {
+            self.label.stringValue = [NSString stringWithFormat:@"%1.2f",result];
+        }
 }
 
 - (IBAction)CButton:(NSButton *)sender

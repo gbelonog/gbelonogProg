@@ -9,9 +9,10 @@
 #import "ViewController.h"
 
 @implementation ViewController
-int number;
-int number2;
-int operation;
+int number1 = 0;
+int number2 = 0;
+float result = 0;
+int operation = 0;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -42,41 +43,76 @@ int operation;
  //   self.label.stringValue = sender.title;
 //    number = self.label.stringValue.intValue;
     //number = sender.title.intValue;
-    number = resultStr.intValue;
+
+    number1 = resultStr.intValue;
     
    // [self.label setTextColor:[NSColor greenColor]];
 }
 // +
 - (IBAction)operationButton:(NSButton *)sender
 {
-    number2 = number;
+    number2 = number1;
     if ([sender.title isEqual: @"+"])
     {
-        //number = number + number2;
-        //operation = 0;
-        number += number2;
+        operation = 0;
     }
     else
          if([sender.title isEqual: @"-"])
          {
-             number -= number2;
+             operation = 1;
          }
+         else
+             if([sender.title isEqual: @"*"])
+             {
+                 operation = 2;
+             }
+             else
+                 if([sender.title isEqual: @"/"])
+                 {
+                     operation = 3;
+                 }
     
     self.label.stringValue = @"0";
 }
 // =
-- (IBAction)equalButton:(id)sender
+- (IBAction)equalButton:(NSButton *)sender
 {
     /*if (operation == 0)
     {
-        number += number2;
+        result = number1 + number2;
+    }
+    else if (operation == 1)
+    {
+        result = number2 - number1;
     }*/
-    self.label.stringValue = [NSString stringWithFormat:@"%d",number];
+    switch (operation)
+    
+    {
+        case 0:
+            result = number1 + number2;
+            break;
+        case 1:
+            result = number2 - number1;
+            break;
+        case 2:
+            result = number2 * number1;
+            break;
+        case 3:
+            result = number2 / number1;
+            break;
+        default:
+            result = 0;
+            break;
+    }
+    self.label.stringValue = [NSString stringWithFormat:@"%1.2f",result];
 }
 
-- (IBAction)CButton:(id)sender
+- (IBAction)CButton:(NSButton *)sender
 {
-     self.label.stringValue = @"0";
+    self.label.stringValue = @"0";
+    number1 = 0;
+    number2 = 0;
+    result = 0;
 }
 
 @end

@@ -8,11 +8,18 @@
 
 #import "ViewController.h"
 
+typedef NS_ENUM(NSUInteger, Operation) {
+    OperationPlus = 1,
+    OperationMinus = 2,
+    OperationMult = 3,
+    OperationDev = 4,
+};
+
 @implementation ViewController
 float number1 = 0;
 float number2 = 0;
 float result = 0;
-int operation = 0;
+Operation operation = 0;
 bool error0 = false;
 
 - (void)viewDidLoad {
@@ -49,28 +56,28 @@ bool error0 = false;
     
    // [self.label setTextColor:[NSColor greenColor]];
 }
-// +
+// +,-,*, /
 - (IBAction)operationButton:(NSButton *)sender
 {
     number2 = number1;
     if ([sender.title isEqual: @"+"])
     {
-        operation = 0;
+        operation = OperationPlus;
     }
     else
          if([sender.title isEqual: @"-"])
          {
-             operation = 1;
+             operation = OperationMinus;
          }
          else
              if([sender.title isEqual: @"*"])
              {
-                 operation = 2;
+                 operation = OperationMult;
              }
              else
                  if([sender.title isEqual: @"/"])
                  {
-                     operation = 3;
+                     operation = OperationDev;
                  }
     
     self.label.stringValue = @"0";
@@ -89,16 +96,16 @@ bool error0 = false;
     switch (operation)
     
     {
-        case 0:
+        case OperationPlus:
             result = number1 + number2;
             break;
-        case 1:
+        case OperationMinus:
             result = number2 - number1;
             break;
-        case 2:
+        case OperationMult:
             result = number2 * number1;
             break;
-        case 3:
+        case OperationDev:
             if (number1 == 0)
             {
                 error0 = true;
@@ -117,18 +124,20 @@ bool error0 = false;
         [self.label setTextColor:[NSColor redColor]];
         self.label.stringValue = @"Error. You cannot devide to 0.";
     }
-        else
-        {
-            self.label.stringValue = [NSString stringWithFormat:@"%1.2f",result];
-        }
+    else
+    {
+        self.label.stringValue = [NSString stringWithFormat:@"%1.2f",result];
+    }
 }
 
-- (IBAction)CButton:(NSButton *)sender
+- (IBAction)cButtonTapped:(NSButton *)sender
 {
     self.label.stringValue = @"0";
     number1 = 0;
     number2 = 0;
     result = 0;
+    error0 = false;
+    [self.label setTextColor:[NSColor blackColor]];
 }
 
 @end

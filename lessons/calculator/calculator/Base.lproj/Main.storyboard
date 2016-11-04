@@ -708,7 +708,7 @@
                                 </connections>
                             </button>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2Sj-w3-nPZ">
-                                <rect key="frame" x="20" y="333" width="232" height="32"/>
+                                <rect key="frame" x="22" y="333" width="228" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" borderStyle="bezel" alignment="right" title="0" drawsBackground="YES" id="ImD-Ct-hHF">
                                     <font key="font" metaFont="system"/>
@@ -746,7 +746,7 @@
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
                                 <connections>
-                                    <action selector="CButton:" target="XfG-lQ-9wD" id="lyg-EY-XFb"/>
+                                    <action selector="cButtonTapped:" target="XfG-lQ-9wD" id="OYu-TP-PiZ"/>
                                 </connections>
                             </button>
                             <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0FI-5E-X9W">

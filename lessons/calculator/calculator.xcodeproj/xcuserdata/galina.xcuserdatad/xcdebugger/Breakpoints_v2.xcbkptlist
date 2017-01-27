@@ -10,13 +10,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "calculator/ViewController.h"
-            timestampString = "499471108.975729"
+            timestampString = "500028197.77055"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "17"
-            endingLineNumber = "17"
-            landmarkName = "@interface ViewController"
-            landmarkType = "2">
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "-numberButton:"
+            landmarkType = "6">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -40,13 +40,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "calculator/ViewController.h"
-            timestampString = "499592653.527727"
+            timestampString = "500028197.77055"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "10"
-            endingLineNumber = "10"
-            landmarkName = "@interface ViewController"
-            landmarkType = "2">
+            endingLineNumber = "10">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy

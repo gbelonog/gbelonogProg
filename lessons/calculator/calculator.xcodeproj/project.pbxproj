@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FE239D101DCCEA4F00DADC2F /* modelCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = FE239D0F1DCCEA4F00DADC2F /* modelCalculator.m */; };
 		FEC0C2F21DC132F100FFA9E4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FEC0C2F11DC132F100FFA9E4 /* AppDelegate.m */; };
 		FEC0C2F51DC132F100FFA9E4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FEC0C2F41DC132F100FFA9E4 /* main.m */; };
 		FEC0C2F81DC132F100FFA9E4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEC0C2F71DC132F100FFA9E4 /* ViewController.m */; };
@@ -34,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FE239D0F1DCCEA4F00DADC2F /* modelCalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = modelCalculator.m; sourceTree = "<group>"; };
+		FE31EB331DD2142900C1A2BF /* modelCalculator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = modelCalculator.h; sourceTree = "<group>"; };
 		FEC0C2ED1DC132F100FFA9E4 /* calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEC0C2F01DC132F100FFA9E4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FEC0C2F11DC132F100FFA9E4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -103,6 +106,8 @@
 				FEC0C2F11DC132F100FFA9E4 /* AppDelegate.m */,
 				FEC0C2F61DC132F100FFA9E4 /* ViewController.h */,
 				FEC0C2F71DC132F100FFA9E4 /* ViewController.m */,
+				FE239D0F1DCCEA4F00DADC2F /* modelCalculator.m */,
+				FE31EB331DD2142900C1A2BF /* modelCalculator.h */,
 				FEC0C2F91DC132F100FFA9E4 /* Assets.xcassets */,
 				FEC0C2FB1DC132F100FFA9E4 /* Main.storyboard */,
 				FEC0C2FE1DC132F100FFA9E4 /* Info.plist */,
@@ -272,6 +277,7 @@
 				FEC0C2F81DC132F100FFA9E4 /* ViewController.m in Sources */,
 				FEC0C2F51DC132F100FFA9E4 /* main.m in Sources */,
 				FEC0C2F21DC132F100FFA9E4 /* AppDelegate.m in Sources */,
+				FE239D101DCCEA4F00DADC2F /* modelCalculator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

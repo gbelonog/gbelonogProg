@@ -8,18 +8,18 @@
 
 #import "ViewController.h"
 
-typedef NS_ENUM(NSUInteger, Operation) {
+/*typedef NS_ENUM(NSUInteger, Operation) {
     OperationPlus = 1,
     OperationMinus = 2,
     OperationMult = 3,
     OperationDev = 4,
-};
+};*/
 
 @implementation ViewController
 float number1 = 0;
 float number2 = 0;
 float result = 0;
-Operation operation = 0;
+//Operation operation = 0;
 bool error0 = false;
 
 - (void)viewDidLoad {
@@ -60,7 +60,8 @@ bool error0 = false;
 - (IBAction)operationButton:(NSButton *)sender
 {
     number2 = number1;
-    if ([sender.title isEqual: @"+"])
+    [operationButtonTapping:  sender.title];
+/*    if ([sender.title isEqual: @"+"])
     {
         operation = OperationPlus;
     }
@@ -78,7 +79,7 @@ bool error0 = false;
                  if([sender.title isEqual: @"/"])
                  {
                      operation = OperationDev;
-                 }
+                 }*/
     
     self.label.stringValue = @"0";
 }

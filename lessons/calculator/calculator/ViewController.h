@@ -7,6 +7,8 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import "modelCalculator.h"
+//#import "modelCalculator.m"
 
 @interface ViewController : NSViewController
 
